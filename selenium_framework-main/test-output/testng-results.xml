@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="89505" started-at="2021-02-01T05:36:42Z" finished-at="2021-02-01T05:38:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="89505" started-at="2021-02-01T05:36:42Z" finished-at="2021-02-01T05:38:12Z">
+      <class name="com.Freecrm.test.Admintest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.Freecrm.test.Admintest@4667ae56]" name="initialization" is-config="true" duration-ms="7750" started-at="2021-02-01T05:36:42Z" finished-at="2021-02-01T05:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.Freecrm.test.Admintest@4667ae56]" name="login" duration-ms="2901" started-at="2021-02-01T05:36:50Z" finished-at="2021-02-01T05:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateUname()[pri:2, instance:com.Freecrm.test.Admintest@4667ae56]" name="validateUname" duration-ms="166" started-at="2021-02-01T05:36:53Z" finished-at="2021-02-01T05:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUname -->
+        <test-method status="PASS" signature="createNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createNewDeal" duration-ms="2998" started-at="2021-02-01T05:36:54Z" data-provider="cromtestData" finished-at="2021-02-01T05:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bf deals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DellLaptop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Existing Customer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeal -->
+        <test-method status="PASS" signature="createNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createNewDeal" duration-ms="2807" started-at="2021-02-01T05:36:57Z" data-provider="cromtestData" finished-at="2021-02-01T05:36:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[computer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bf deals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Old]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Online]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeal -->
+        <test-method status="PASS" signature="createNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createNewDeal" duration-ms="3275" started-at="2021-02-01T05:36:59Z" data-provider="cromtestData" finished-at="2021-02-01T05:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bf deals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Led]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Priority]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Referral]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeal -->
+        <test-method status="PASS" signature="createNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createNewDeal" duration-ms="3346" started-at="2021-02-01T05:37:03Z" data-provider="cromtestData" finished-at="2021-02-01T05:37:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ipad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bf deals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Old]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Referral]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeal -->
+        <test-method status="PASS" signature="createNewDeal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createNewDeal" duration-ms="3310" started-at="2021-02-01T05:37:06Z" data-provider="cromtestData" finished-at="2021-02-01T05:37:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bf deals]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Led]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Old]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Online]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeal -->
+        <test-method status="PASS" signature="createcalender(java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcalender" duration-ms="2742" started-at="2021-02-01T05:37:09Z" data-provider="cromtestData1" finished-at="2021-02-01T05:37:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Critical]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcalender -->
+        <test-method status="PASS" signature="createcalender(java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcalender" duration-ms="2620" started-at="2021-02-01T05:37:12Z" data-provider="cromtestData1" finished-at="2021-02-01T05:37:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Important]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcalender -->
+        <test-method status="PASS" signature="createcalender(java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcalender" duration-ms="2665" started-at="2021-02-01T05:37:15Z" data-provider="cromtestData1" finished-at="2021-02-01T05:37:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hij]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opportunity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcalender -->
+        <test-method status="PASS" signature="createcalender(java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcalender" duration-ms="2565" started-at="2021-02-01T05:37:18Z" data-provider="cromtestData1" finished-at="2021-02-01T05:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[klm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Critical]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcalender -->
+        <test-method status="PASS" signature="createcalender(java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcalender" duration-ms="2733" started-at="2021-02-01T05:37:20Z" data-provider="cromtestData1" finished-at="2021-02-01T05:37:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Critical]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcalender -->
+        <test-method status="PASS" signature="createcompanies(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcompanies" duration-ms="3461" started-at="2021-02-01T05:37:23Z" data-provider="cromtestData3" finished-at="2021-02-01T05:37:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[senth]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pharm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Client]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Medium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcompanies -->
+        <test-method status="PASS" signature="createcompanies(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcompanies" duration-ms="4146" started-at="2021-02-01T05:37:26Z" data-provider="cromtestData3" finished-at="2021-02-01T05:37:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[preet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[It]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hot]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcompanies -->
+        <test-method status="PASS" signature="createcompanies(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcompanies" duration-ms="4444" started-at="2021-02-01T05:37:30Z" data-provider="cromtestData3" finished-at="2021-02-01T05:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[varnu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[content]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hot]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prospect]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcompanies -->
+        <test-method status="PASS" signature="createcompanies(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcompanies" duration-ms="3379" started-at="2021-02-01T05:37:35Z" data-provider="cromtestData3" finished-at="2021-02-01T05:37:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[innu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[auto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hot]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Prospect]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcompanies -->
+        <test-method status="PASS" signature="createcompanies(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcompanies" duration-ms="2931" started-at="2021-02-01T05:37:38Z" data-provider="cromtestData3" finished-at="2021-02-01T05:37:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[divine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Client]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcompanies -->
+        <test-method status="PASS" signature="createcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcontact" duration-ms="3399" started-at="2021-02-01T05:37:41Z" data-provider="cromtestData4" finished-at="2021-02-01T05:37:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iniyaah]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[senthil]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[innu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method status="PASS" signature="createcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcontact" duration-ms="3171" started-at="2021-02-01T05:37:45Z" data-provider="cromtestData4" finished-at="2021-02-01T05:37:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nandha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vardu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nandu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lead]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method status="PASS" signature="createcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcontact" duration-ms="3228" started-at="2021-02-01T05:37:48Z" data-provider="cromtestData4" finished-at="2021-02-01T05:37:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[varnika]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[senthil]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[varnu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Friend]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method status="PASS" signature="createcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcontact" duration-ms="3365" started-at="2021-02-01T05:37:51Z" data-provider="cromtestData4" finished-at="2021-02-01T05:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sentil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sen]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method status="PASS" signature="createcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createcontact" duration-ms="3681" started-at="2021-02-01T05:37:54Z" data-provider="cromtestData4" finished-at="2021-02-01T05:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Prospect]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method status="PASS" signature="createtask(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createtask" duration-ms="2512" started-at="2021-02-01T05:37:58Z" data-provider="cromtestData2" finished-at="2021-02-01T05:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtask -->
+        <test-method status="PASS" signature="createtask(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createtask" duration-ms="2556" started-at="2021-02-01T05:38:01Z" data-provider="cromtestData2" finished-at="2021-02-01T05:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtask -->
+        <test-method status="PASS" signature="createtask(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createtask" duration-ms="2773" started-at="2021-02-01T05:38:03Z" data-provider="cromtestData2" finished-at="2021-02-01T05:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Event]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtask -->
+        <test-method status="PASS" signature="createtask(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createtask" duration-ms="2641" started-at="2021-02-01T05:38:06Z" data-provider="cromtestData2" finished-at="2021-02-01T05:38:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nayan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meeting]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtask -->
+        <test-method status="PASS" signature="createtask(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.Freecrm.test.Admintest@4667ae56]" name="createtask" duration-ms="2974" started-at="2021-02-01T05:38:09Z" data-provider="cromtestData2" finished-at="2021-02-01T05:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meeting]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtask -->
+      </class> <!-- com.Freecrm.test.Admintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
